@@ -1,7 +1,7 @@
 # Welcome to GL Test exercise repo
 
 **For set up environment do the following steps:**
-- Install java JDK 1.8 in your system and configurate global JAVA_HOME variable, on Mac execute command in terminal
+- Install java JDK 11 in your system and configurate global JAVA_HOME variable, on Mac execute command in terminal
 ```
 brew cask install java
 ```
