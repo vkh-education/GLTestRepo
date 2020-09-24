@@ -22,7 +22,7 @@ public class GlobalConfig {
             e.printStackTrace();
         }
         this.apiKey = properties.getProperty("apiKey");
-//        this.apiKey = config.getString( "apiKey" );
+//        this.apiKey = config.getString( "apiKey" ); // For security reason I removed my api key. Another api key must be set as an argument
 
     }
 }
