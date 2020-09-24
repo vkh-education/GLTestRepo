@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="AllTests">
+    <test name="Reports sequential tests" parallel="classes" thread-count="2">
+        <classes>
+            <class name="tests.OmdbSearchPositiveTest"/>
+            <class name="tests.OmdbSearchNegativeTest"/>
+        </classes>
+    </test>
+</suite>
